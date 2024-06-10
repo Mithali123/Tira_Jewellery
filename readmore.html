@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read More</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="readmore.css">
+    <style>
+        /* Your custom styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(./images/img7.jpg);
+            background-repeat: repeat;
+        }
+
+        .text-container {
+            background-color: rgb(227, 183, 9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1{
+            cursor: pointer;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1 class="cursor-pointer" onclick="home()">Read More</h1>
+            <div class="text-container">
+                <p><b>Our Passion for Exquisite Craftsmanship:</b> At Tira Jewellery, we are more than just jewelers; we are craftsmen and artists dedicated to creating extraordinary pieces that celebrate life's special moments. Our passion for exquisite craftsmanship and timeless design is reflected in every piece of jewelry we create.</p>
+                <p><b>Our Commitment to Quality:</b> Quality is at the heart of everything we do. We source the finest materials and work with skilled artisans who share our dedication to precision and excellence. Every piece is a testament to our commitment to providing you with jewelry that stands the test of time, both in terms of style and durability.</p>
+                <p><b>More Than Jewelry, It's a Connection:</b> Beyond the sparkle and glamour, our jewelry is a symbol of connection and celebration. It marks milestones, strengthens bonds, and encapsulates precious memories. We are honored to be part of your journey and to play a role in your cherished moments.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript and dependencies (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function home() {
+            window.open("index.html");
+        }
+    </script>
+</body>
+
+</html>
